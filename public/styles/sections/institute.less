@@ -1,0 +1,48 @@
+h3{
+    color: #fff;
+    margin-top: auto;
+}
+
+.institute__flex{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    @media screen and (max-width: @mobile) {
+        flex-direction: column;
+    }
+}
+
+.institute__box{
+    flex: 1 1 auto;
+    max-width: 270px;
+    margin-left: 150px;
+    &:nth-child(1){
+        margin-left: 0
+    }
+    &-title{
+        font-family: Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+    }
+    &-text{
+        font-family: Helvetica, sans-serif;
+        line-height: 32px;
+        font-weight: 100;
+        font-size: 18px;
+        color: #fff;
+        @media screen and (max-width: @mobile) {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    @media screen and (max-width: @mobile) {
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+

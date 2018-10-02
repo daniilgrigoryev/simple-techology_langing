@@ -1,0 +1,49 @@
+<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Right</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1508 -3755)">
+<g id="Right">
+<g id="UI/Container/Rounded (100px)">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Base">
+<use xlink:href="#path0_fill" transform="translate(1508 3755)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="UI/Color/Flat/White (Default)" mask="url(#mask0_outline)">
+<g id="Base">
+<use xlink:href="#path1_fill" transform="translate(1508 3755)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<g id="UI/Border/Rounded (100px)/1px - 10%Black">
+<g id="Border Shape">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1508 3755)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(1508 3755)" fill="#000000" fill-opacity="0.1"/>
+</g>
+</g>
+</g>
+<g id="Icon/Arrow Right">
+<mask id="mask2_outline" mask-type="alpha">
+<g id="Right Arrow">
+<use xlink:href="#path3_fill" transform="matrix(-1 0 0 1 1529 3768)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="&#226;&#134;&#179; &#240;&#159;&#142;&#168;Color" mask="url(#mask2_outline)">
+<g id="Base">
+<use xlink:href="#path4_fill" transform="translate(1518 3765)" fill="#A8AAB7"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 18C 0 8.05888 8.05888 0 18 0C 27.9411 0 36 8.05888 36 18C 36 27.9411 27.9411 36 18 36C 8.05888 36 0 27.9411 0 18Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 36 0L 36 36L 0 36L 0 0Z"/>
+<path id="path2_stroke_2x" d="M 18 35C 8.61116 35 1 27.3888 1 18L -1 18C -1 28.4934 7.50659 37 18 37L 18 35ZM 35 18C 35 27.3888 27.3888 35 18 35L 18 37C 28.4934 37 37 28.4934 37 18L 35 18ZM 18 1C 27.3888 1 35 8.61116 35 18L 37 18C 37 7.50659 28.4934 -1 18 -1L 18 1ZM 18 -1C 7.50659 -1 -1 7.50659 -1 18L 1 18C 1 8.61116 8.61116 1 18 1L 18 -1Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 6 0L 0 5L 6 10L 6 0Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 0L 16 0L 16 16L 0 16L 0 0Z"/>
+</defs>
+</svg>

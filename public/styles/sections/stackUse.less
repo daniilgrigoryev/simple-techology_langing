@@ -1,0 +1,61 @@
+h3{
+    color: #fff;
+    margin-top: auto;
+}
+
+
+.stackUse__section{
+    @media screen and (max-width: @mobile) {
+        padding: 50px 0;
+    }
+    .stackUse__flex{
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: @mobile) {
+           flex-direction: column;
+        }
+    }
+    .stackUse__box{
+        text-align: center;
+        flex: 33%;
+        @media screen and (max-width: @mobile) {
+          width: 50%;
+          margin: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        &-img{
+            width: 120px;
+            height: 106px;
+            margin: auto;
+            display: table;
+            position: relative;
+            margin-bottom: 10px;
+            img{
+                display: table-cell;
+                position: absolute;
+                vertical-align: middle;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin: auto;
+            }
+        }
+
+        &-title{
+            font-size: 22px;
+            line-height: 48px;
+            font-weight: bold;
+            color: #fff;
+        }
+        &-text{
+            font-size: 14px;
+            line-height: 20px;
+            color: #fff;
+            font-weight: 300;
+        }
+    }
+}
+
+

@@ -1,0 +1,101 @@
+.wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer__flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 50px 0px;
+}
+
+.footer_top{
+    .wrapper{
+        @media screen and (max-width: @mobile) {
+            line-height: 14px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .footer__column{
+        flex: 1 10%;
+        font-size: 14px;
+        line-height: 2.143;
+        &:nth-child(1){
+            text-align: left;
+            @media screen and (max-width: @mobile) {
+                display: none;
+            }
+        }
+        &:nth-child(2){
+            text-align: right;
+            @media screen and (max-width: @mobile) {
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                line-height: 16px;
+                flex: 1;
+                margin: auto;
+            }
+        }
+    }
+    .footer__contactInforamtion{
+        font-family: Helvetica, sans-serif;
+        font-weight: 300;
+        .title{
+            font-family: Helvetica, sans-serif;
+            display: none;
+            font-size: 22px;
+            margin-bottom: 40px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            @media screen and (max-width: @mobile) {
+                display: block;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+.footer_bottom{
+    .footer__flex{
+        align-items: center;
+    }
+    .footer__navigation{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin: 0 15px;
+            @media screen and (max-width: @tablet) {
+                display: block;
+                margin: 10px 15px;
+            }
+            a{
+                font-family: Helvetica, sans-serif;
+                font-weight: 300;
+                color: #fff;
+                text-decoration: none;
+                font-size: 14px;
+            }
+        }
+        @media screen and (max-width: @mobile) {
+            display: none;
+        }
+    }
+    .logo{
+        @media screen and (max-width: @mobile) {
+            display: none;
+        }
+    }
+    .footer_socialLinks {
+        @media screen and (max-width: @mobile) {
+            margin: auto;
+        }
+    }
+}
+
+
+

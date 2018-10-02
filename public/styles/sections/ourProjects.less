@@ -1,0 +1,110 @@
+h3{
+    margin-top: auto;
+}
+
+.ourProjects-sliderContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.ourProjects-slider{
+    position: relative;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    &__item{
+        min-height: 50vh;
+        padding: 30px;
+        &:focus{
+            outline: none;
+        }
+    }
+    &__title{
+        font-family: Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    &__section{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: @mobile) {
+           flex-direction: column-reverse;
+        }
+    }
+    &__content{
+        flex: 1 30%;
+        @media screen and (max-width: @mobile) {
+           flex: none;
+           text-align: center;
+           margin-bottom: 50px;
+        }
+    }
+    &__text{
+        font-family: Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    &__img{
+        flex: 1 50%;
+        text-align: right;
+        min-height: 200px;
+        max-height: 100%;
+        @media screen and (max-width: @mobile) {
+            flex: 1 100%;
+            text-align: center;
+        }
+         img{
+            display: inline-block;
+            object-fit: contain;
+            max-width: 100%;
+            max-height: 100%;
+            @media screen and (max-width: @mobile) {
+                height: 210px;
+            }
+        }
+    }
+    &__controlPanel{
+        position: absolute;
+        bottom: 0;
+        width: 217px;
+        height: 36px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        @media screen and (max-width: @mobile) {
+          display: none;
+        }
+        .slick-arrow{
+            width: 36px;
+            height: 36px;
+        }
+        .slick-prev {left: 0}
+        .slick-next {right: 0}
+        .slick-dots{
+            top: 0;
+            border: inherit;
+            height: 100%;
+            li{color: #CED0DA;margin: 0 2px;}
+            li button:before{font-size: 10px;}
+            li.slick-active{color: #353C48}
+        }
+    }
+}
+#ourProjects-slider__1 {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+

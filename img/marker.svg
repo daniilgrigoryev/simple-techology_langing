@@ -1,0 +1,37 @@
+<svg width="123" height="123" viewBox="0 0 123 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Location</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1401 -6681)">
+<g id="Location">
+<g id="Oval">
+<use xlink:href="#path0_fill" transform="translate(1402 6682)" fill="#2CC197" fill-opacity="0.08"/>
+<use xlink:href="#path1_stroke" transform="translate(1402 6682)" fill="#4A90E2"/>
+</g>
+<g id="Oval 2" filter="url(#filter0_d)">
+<use xlink:href="#path2_fill" transform="translate(1452 6732)" fill="#4A90E2"/>
+<mask id="mask0_outline_out">
+<rect id="mask0_outline_inv" fill="white" x="-5" y="-5" width="31" height="31" transform="translate(1452 6732)"/>
+<use xlink:href="#path2_fill" fill="black" transform="translate(1452 6732)"/>
+</mask>
+<g mask="url(#mask0_outline_out)">
+<use xlink:href="#path3_stroke_2x" transform="translate(1452 6732)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="1440" y="6722" width="45" height="45" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="3.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.622598 0 0 0 0 0.653762 0 0 0 0 0.701185 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 60.5 121C 93.9132 121 121 93.9132 121 60.5C 121 27.0868 93.9132 0 60.5 0C 27.0868 0 0 27.0868 0 60.5C 0 93.9132 27.0868 121 60.5 121Z"/>
+<path id="path1_stroke" d="M 60.5 121.5C 94.1894 121.5 121.5 94.1894 121.5 60.5L 120.5 60.5C 120.5 93.6371 93.6371 120.5 60.5 120.5L 60.5 121.5ZM 121.5 60.5C 121.5 26.8106 94.1894 -0.5 60.5 -0.5L 60.5 0.5C 93.6371 0.5 120.5 27.3629 120.5 60.5L 121.5 60.5ZM 60.5 -0.5C 26.8106 -0.5 -0.5 26.8106 -0.5 60.5L 0.5 60.5C 0.5 27.3629 27.3629 0.5 60.5 0.5L 60.5 -0.5ZM -0.5 60.5C -0.5 94.1894 26.8106 121.5 60.5 121.5L 60.5 120.5C 27.3629 120.5 0.5 93.6371 0.5 60.5L -0.5 60.5Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 10.5 21C 16.299 21 21 16.299 21 10.5C 21 4.70101 16.299 0 10.5 0C 4.70101 0 0 4.70101 0 10.5C 0 16.299 4.70101 21 10.5 21Z"/>
+<path id="path3_stroke_2x" d="M 10.5 26C 19.0604 26 26 19.0604 26 10.5L 16 10.5C 16 13.5376 13.5376 16 10.5 16L 10.5 26ZM 26 10.5C 26 1.93959 19.0604 -5 10.5 -5L 10.5 5C 13.5376 5 16 7.46243 16 10.5L 26 10.5ZM 10.5 -5C 1.93959 -5 -5 1.93959 -5 10.5L 5 10.5C 5 7.46243 7.46243 5 10.5 5L 10.5 -5ZM -5 10.5C -5 19.0604 1.93959 26 10.5 26L 10.5 16C 7.46243 16 5 13.5376 5 10.5L -5 10.5Z"/>
+</defs>
+</svg>
